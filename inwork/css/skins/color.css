@@ -37,10 +37,14 @@ svg {
   color: #337AB7;
 }
 
-.section-about {
-  background-color: #f3fafd;
+.section-menu,
+.section-gallary {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
+  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
 }
 
+.section-about,
 .section-reviews,
 .section-contacts {
   background-color: #f3eeeb;
@@ -83,6 +87,18 @@ svg {
   background-color: #0099CC;
 }
 
+.easynetshop-continue {
+  font-family: "Raleway", sans-serif;
+  border: 1px solid #337AB7;
+  background-color: #337AB7;
+  color: #fff;
+}
+
+.easynetshop-continue:hover {
+  background-color: #0099CC;
+  color: #fff;
+}
+
 .menu_item-content h2 {
   border: 2px solid #337AB7;
   color: #fff;
@@ -107,6 +123,10 @@ form button {
   border: none;
   color: #fff;
   letter-spacing: 1px;
+}
+
+form button:hover {
+  background-color: #0099CC;
 }
 
 p,
