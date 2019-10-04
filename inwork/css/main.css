@@ -678,3 +678,7 @@ form textarea {
 .easynetshop-continue {
   font-family: "Raleway", sans-serif;
 }
+
+.easynetshop-bodyhide {
+  padding-right: 0;
+}
