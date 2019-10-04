@@ -63,6 +63,26 @@
 		background-color: rgba(0,0,0,.2);
 		opacity: 1;
 	}
+	.menu_item h2 {
+		padding: 29vw 15px;
+		font-size: 5.5vw;
+	}
+	.section__title {
+		margin-bottom: 35px;
+	}
+	.section-menu__content ul {
+		margin-top: 0;
+		padding-left: 60px;
+	}
+	.section-menu__content li {
+		font-size: 15px;
+	}
+	.next_button {
+		right: 10px;
+	}
+	.prev_button {
+		left: 10px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -179,6 +199,10 @@
 	}
 }
 
+/*==========  Custom Mobile First Method  ==========*/
+@media only (min-width : 320px) and (max-width: 480px){
+
+}
 
 /*==========  Mobile First Method  ==========*/
 
