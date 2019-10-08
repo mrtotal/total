@@ -682,3 +682,9 @@ form textarea {
 .easynetshop-bodyhide {
   padding-right: 0;
 }
+
+.main_footer {
+  padding: 50px 0;
+  font-size: 13px;
+  font-weight: 400;
+}
