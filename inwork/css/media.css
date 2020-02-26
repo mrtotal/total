@@ -56,7 +56,7 @@
 	}
 	.content_menu .item_price {
 		font-size: 18px;
-		padding-top: 0;
+		padding: 15px 15px 0 0;
 	}
 	.item_btn {
 		padding: 4px;
@@ -122,7 +122,7 @@
 	}
 	.content_menu .item_price {
 		font-size: 18px;
-		padding-top: 0;
+		padding: 15px 15px 0 0;
 	}
 	.item_btn {
 		padding: 4px;
@@ -215,7 +215,7 @@
 	}
 	.content_menu .item_price {
 		font-size: 18px;
-		padding-top: 0;
+		padding: 0 15px 0 0;
 	}
 	.item_btn {
 		padding: 4px;
@@ -293,15 +293,17 @@
 		padding: 10px;
 	}
 	.content_menu .item_title {
-		font-size: 16px;
-		height: 50px;
+		font-size: 15px;
+		height: 35px;
+		line-height: 1.15;
 	}
 	.content_menu .item_price {
 		font-size: 17px;
-		padding-top: 0;
+		padding: 0 15px 0 0;
 	}
 	.item_description {
-		display: none;
+		font-size: 0.70em;
+		//display: none;
 	}
 	.item_btn {
 		padding: 4px;
@@ -402,6 +404,12 @@
 	}
 }
 
+@media (min-width: 578px) and (max-width: 767px) {
+	.content_menu .item_price {
+		padding: 15px 15px 0 0;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.menu_descr {
 		max-width: 600px;
@@ -457,7 +465,7 @@
 	}
 	.content_menu .item_price {
 		font-size: 18px;
-		padding-top: 0;
+		padding: 15px 15px 0 0;
 	}
 	.item_btn {
 		padding: 4px;

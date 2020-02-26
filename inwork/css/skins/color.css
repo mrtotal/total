@@ -8,11 +8,11 @@ a {
 }
 
 svg {
-  fill: #fff;
+  fill: #2c2c2c;
 }
 
 .logo h1, .logo p {
-  color: #fff;
+  color: #2c2c2c;
   letter-spacing: 2px;
 }
 
@@ -81,6 +81,7 @@ svg {
 .item_btn {
   background-color: #337AB7;
   border: 1px solid #337AB7;
+  color: #fff;
 }
 
 .item_btn:hover {
