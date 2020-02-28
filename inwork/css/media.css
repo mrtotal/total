@@ -183,7 +183,7 @@
 		padding: 0.5em 1.2em;
 	}
 	.menu_item .menu_item-content {
-		background-color: rgba(0,0,0,.2);
+		background-color: rgba(0,0,0,.6);
 		opacity: 1;
 	}
 	.menu_item h2 {
@@ -447,7 +447,7 @@
 		font-size: 23px;
 	}
 	.menu_item .menu_item-content {
-		background-color: rgba(0,0,0,.2);
+		background-color: rgba(0,0,0,.6);
 		opacity: 1;
 	}
 	.next_button {
@@ -480,6 +480,12 @@
 	.content_menu .item_btn {
 		margin-top: 1vw;
 		margin-left: 3vw;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+	.section-menu_pict img {
+		min-height: 243px
 	}
 }
 

@@ -17,11 +17,12 @@ svg {
 }
 
 .button {
-  color: #f3eeeb;
+  color: #337AB7;
 }
 
 .button:hover {
   background-color: #337AB7;
+  color: #fafce8;
 }
 
 .section__title h2 {
@@ -39,15 +40,15 @@ svg {
 
 .section-menu,
 .section-gallary {
-  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
-  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(251, 251, 181, 0.8) 0%, rgba(250, 252, 232, 0.5) 100%);
+  background: -o-linear-gradient(45deg, rgba(251, 251, 181, 0.8) 0%, rgba(250, 252, 232, 0.5) 100%);
+  background: linear-gradient(45deg, rgba(251, 251, 181, 0.8) 0%, rgba(250, 252, 232, 0.5) 100%);
 }
 
 .section-about,
 .section-reviews,
 .section-contacts {
-  background-color: #f3eeeb;
+  background-color: #fafce8;
 }
 
 .section__title {
@@ -75,7 +76,7 @@ svg {
 }
 
 .menu_descr {
-  background: #f3eeeb;
+  background: #fafce8;
 }
 
 .item_btn {
